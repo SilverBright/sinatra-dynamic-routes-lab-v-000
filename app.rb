@@ -20,7 +20,7 @@ class App < Sinatra::Base
     @number.times do
        @return_phrase << @phrase
      end
-     @return_phrase
+     @return_phrase.join
    end
 
 
